@@ -1,0 +1,43 @@
+# 코드 공개용 저장소 — 직접 짠 코드만 올립니다
+# Unity가 만드는 폴더
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+# .meta는 Unity 프로젝트로 열 때만 필요 — 코드만 보여 주는 저장소라 뺌
+*.meta
+# 에셋(모델·텍스처·사운드·프리팹·씬)은 유료 라이선스·용량 때문에 올리지 않음
+*.fbx
+*.FBX
+*.blend
+*.obj
+*.prefab
+*.unity
+*.mat
+*.anim
+*.controller
+*.asset
+*.wav
+*.mp3
+*.ogg
+*.psd
+*.tga
+*.mp4
+# 플러그인 DLL (README에 사용 라이브러리로만 적음)
+*.dll
+# 비밀값
+*.keystore
+*.jks
+*.env
+# IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+.DS_Store
+Thumbs.db
